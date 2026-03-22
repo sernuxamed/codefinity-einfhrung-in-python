@@ -5,7 +5,7 @@ shelf1 = ("celery", "spinach", "cucumbers")
 shelf1_update = ["tomatoes", "celery", "cilantro"]
 
 #Umwandlung der Liste shelf1_update in ein Tupel mit dem Namen shelf1_update_tuple.
-shelf1_update_tuple = (shelf1_update)
+shelf1_update_tuple = tuple(shelf1_update)
 
 #Verkettung von shelf1_update_tuple mit dem bestehenden Tupel shelf1, um ein neues Tupel namens shelf1_concat zu erstellen
 shelf1_concat = (shelf1_update_tuple, shelf1)
